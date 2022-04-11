@@ -21,9 +21,9 @@ public class Ejercicio1 : MonoBehaviour
     // reales: 23,87 peso argentino
     void Start()
     {
-        float R = montoPesos * 23;
-        float D = montoPesos * 112;
-        float E = montoPesos * 122;
+        float R = montoPesos / 23;
+        float D = montoPesos / 112;
+        float E = montoPesos / 122;
 
         if (MonedaExtranjera != "R" && MonedaExtranjera !=  "D" && MonedaExtranjera != "E")
         {
