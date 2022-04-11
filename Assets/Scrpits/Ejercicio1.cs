@@ -35,15 +35,15 @@ public class Ejercicio1 : MonoBehaviour
         }
         else if (MonedaExtranjera == "D")
         {
-            Debug.Log(montoPesos + " argentinos equivalen a " + D + " Dólares");
+            Debug.Log(montoPesos + " Pesos Argentinos equivalen a " + D + " Dólares");
         }
         else if (MonedaExtranjera == "E")
         {
-            Debug.Log(montoPesos + " argentinos equivalen a " + E + " Euros");
+            Debug.Log(montoPesos + " Pesos Argentinos equivalen a " + E + " Euros");
         }
         else if (MonedaExtranjera == "R")
         {
-            Debug.Log(montoPesos + " argentinos equivalen a " + R + " Reales");
+            Debug.Log(montoPesos + " Pesos Argentinos equivalen a " + R + " Reales");
         }
 
 
