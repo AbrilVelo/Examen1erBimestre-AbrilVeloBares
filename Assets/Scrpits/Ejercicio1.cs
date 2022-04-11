@@ -33,25 +33,26 @@ public class Ejercicio1 : MonoBehaviour
         {
             Debug.Log("El monto mínimo es $1000");
         }
-
-        if (MonedaExtranjera == "D")
-            {
-                Debug.Log(montoPesos + " argentinos equivalen a " + D + " Dólares");
-            }
+        else if (MonedaExtranjera == "D")
+        {
+            Debug.Log(montoPesos + " argentinos equivalen a " + D + " Dólares");
+        }
         else if (MonedaExtranjera == "E")
-            {
-                Debug.Log(montoPesos + " argentinos equivalen a " + E + " Euros");
-            }
+        {
+            Debug.Log(montoPesos + " argentinos equivalen a " + E + " Euros");
+        }
         else if (MonedaExtranjera == "R")
-            {
-                Debug.Log(montoPesos + " argentinos equivalen a " + R + " Reales");
-            }
-        
-    }
-           
-        
+        {
+            Debug.Log(montoPesos + " argentinos equivalen a " + R + " Reales");
+        }
+
+
 
     }
+
+
+
+}
 
    
 
